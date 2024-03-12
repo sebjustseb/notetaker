@@ -90,7 +90,6 @@ const clearForm = () => {
   currentNoteId = null;
 };
 
-// Event listeners
 saveNoteBtn.addEventListener('click', (e) => {
   e.preventDefault();
   if (currentNoteId) {
@@ -110,5 +109,4 @@ deleteNoteBtn.addEventListener('click', () => {
   }
 });
 
-// Initialize the application
 getNotes();
